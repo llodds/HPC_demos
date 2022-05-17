@@ -1,4 +1,4 @@
-# 3D SSIM using CuPy on GPU, could potential extend to 3D
+# 3D SSIM using CuPy on GPU, could potentially extend to 3D
 
 import cupy as cp
 from cupyx.scipy.ndimage import uniform_filter
