@@ -1,4 +1,5 @@
 # 3D SSIM using CuPy on GPU, could potentially extend to ND
+# Based on https://github.com/scikit-image/scikit-image/blob/main/skimage/metrics/_structural_similarity.py
 
 import cupy as cp
 from cupyx.scipy.ndimage import uniform_filter
